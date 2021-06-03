@@ -6,7 +6,9 @@ class SliderPage extends StatefulWidget {
 }
 
 class _SliderPageState extends State<SliderPage> {
-  double _valueSlider = 400.0;
+  double _valueSlider = 100.0;
+  bool _blokCheck = false;
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -19,6 +21,9 @@ class _SliderPageState extends State<SliderPage> {
             child: Column(
               children: [
                 _createSlider(),
+                _createCheckBox(),
+                _createSwitch(),
+                _createImage()
               ],
             ),
           )),
@@ -28,15 +33,49 @@ class _SliderPageState extends State<SliderPage> {
   _createSlider() {
     return Slider(
         activeColor: Colors.indigo,
-        divisions: 10,
+        //divisions: 10,
         label: "Size image",
         value: _valueSlider,
         min: 10.0,
         max: 400.0,
-        onChanged: (value) {
+        onChanged: _blokCheck ? null : (value) {
           setState(() {
             _valueSlider = value;
           });
         });
+  }
+
+  Widget _createCheckBox() {
+    return CheckboxListTile(
+      title: Text('Block Slider'),
+      value: _blokCheck,
+      onChanged: (value) {
+        setState(() {
+          _blokCheck = value != null ? value : false;
+        });
+      }
+    );
+  }
+
+  Widget _createSwitch() {
+    return SwitchListTile(
+      title: Text('Block Slider'),
+      value: _blokCheck,
+      onChanged: (value) {
+        setState(() {
+          _blokCheck = value;
+        });
+      }
+    );
+  }
+
+  Widget _createImage() {
+    return Expanded(
+      child: Image(
+        image: NetworkImage('http://pngimg.com/uploads/batman/batman_PNG111.png'),
+        width: _valueSlider,
+        fit: BoxFit.contain,
+      ),
+    );
   }
 }

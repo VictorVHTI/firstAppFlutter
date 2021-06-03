@@ -5,6 +5,7 @@ import 'package:example_flutter/src/screens/components/pages/animated_page.dart'
 import 'package:example_flutter/src/screens/components/pages/avatar_page.dart';
 import 'package:example_flutter/src/screens/components/pages/cards_page.dart';
 import 'package:example_flutter/src/screens/components/pages/inputs.page.dart';
+import 'package:example_flutter/src/screens/components/pages/list_page.dart';
 import 'package:example_flutter/src/screens/components/pages/slider_page.dart';
 import 'package:example_flutter/src/screens/counter/counter.dart';
 import 'package:flutter/material.dart';
@@ -20,5 +21,6 @@ Map<String, WidgetBuilder> getAplicationRoutes() {
     '/components/animated': (BuildContext contex) => AnimatedPage(),
     '/components/inputs': (BuildContext contex) => InputsPage(),
     '/components/slider': (BuildContext contex) => SliderPage(),
+    '/components/list': (BuildContext contex) => ListPage(),
   };
 }
