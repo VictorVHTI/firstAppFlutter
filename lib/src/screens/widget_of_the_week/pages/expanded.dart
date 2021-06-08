@@ -1,11 +1,23 @@
 import 'package:flutter/material.dart';
 
 class MyExpanded extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(child: Square(Colors.red)),
+      body: SafeArea(
+          child: Center(
+        child: Row(
+          children: [
+            Square(Colors.red),
+            Expanded(child: Square(Colors.green)),
+            Expanded(
+              child: Square(Colors.green),
+              flex: 2,
+            ),
+            Square(Colors.red),
+          ],
+        ),
+      )),
     );
   }
 }
@@ -13,7 +25,7 @@ class MyExpanded extends StatelessWidget {
 class Square extends StatelessWidget {
   final Color color;
 
-  Square( this.color );
+  Square(this.color);
 
   @override
   Widget build(BuildContext context) {

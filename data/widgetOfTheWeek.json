@@ -9,24 +9,24 @@
             "title": "Expanded"
         },
         {
-            "route" : "card",
-            "title": "Cards - Tarjetas"
+            "route" : "wrap",
+            "title": "Wrap"
         },
         {
-            "route" : "animated",
+            "route" : "animatedContainer",
             "title": "Animated Container"
         },
         {
-            "route" : "inputs",
-            "title": "Inputs"
+            "route" : "animatedOpacity",
+            "title": "Animated Opacity"
         },
         {
-            "route" : "slider",
-            "title": "Slider"
+            "route" : "futureBulider",
+            "title": "Future Bulider"
         },
         {
-            "route" : "list",
-            "title": "List"
+            "route" : "fadeTransition",
+            "title": "Fade Transition"
         }
     ]
 }
