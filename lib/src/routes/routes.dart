@@ -9,6 +9,7 @@ import 'package:example_flutter/src/screens/components/pages/list_page.dart';
 import 'package:example_flutter/src/screens/components/pages/slider_page.dart';
 import 'package:example_flutter/src/screens/counter/counter.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/expanded.dart';
+import 'package:example_flutter/src/screens/widget_of_the_week/pages/futureBuilder.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/opacity.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/safeArea.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/wrap.dart';
@@ -34,5 +35,6 @@ Map<String, WidgetBuilder> getAplicationRoutes() {
     '/widget/wrap': (BuildContext contex) => MyWrap(),
     '/widget/animatedContainer': (BuildContext contex) => AnimatedPage(),
     '/widget/animatedOpacity': (BuildContext contex) => MyOpacity(),
+    '/widget/futureBulider': (BuildContext contex) => MyFutureBuilder(),
   };
 }
