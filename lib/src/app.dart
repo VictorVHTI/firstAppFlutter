@@ -22,6 +22,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             ButtonNavigation('Counter', '/counter'),
             ButtonNavigation('Components', '/components'),
+            ButtonNavigation('Widget of the week', '/widget'),
           ],
         ),
       ),

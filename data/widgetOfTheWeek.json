@@ -1,0 +1,32 @@
+{
+    "widget" : [
+        {
+            "route" : "safeArea",
+            "title": "Safe Area"
+        },
+        {
+            "route" : "expanded",
+            "title": "Expanded"
+        },
+        {
+            "route" : "card",
+            "title": "Cards - Tarjetas"
+        },
+        {
+            "route" : "animated",
+            "title": "Animated Container"
+        },
+        {
+            "route" : "inputs",
+            "title": "Inputs"
+        },
+        {
+            "route" : "slider",
+            "title": "Slider"
+        },
+        {
+            "route" : "list",
+            "title": "List"
+        }
+    ]
+}

@@ -8,6 +8,9 @@ import 'package:example_flutter/src/screens/components/pages/inputs.page.dart';
 import 'package:example_flutter/src/screens/components/pages/list_page.dart';
 import 'package:example_flutter/src/screens/components/pages/slider_page.dart';
 import 'package:example_flutter/src/screens/counter/counter.dart';
+import 'package:example_flutter/src/screens/widget_of_the_week/pages/expanded.dart';
+import 'package:example_flutter/src/screens/widget_of_the_week/pages/safeArea.dart';
+import 'package:example_flutter/src/screens/widget_of_the_week/widgets_index.dart';
 import 'package:flutter/material.dart';
 
 Map<String, WidgetBuilder> getAplicationRoutes() {
@@ -22,5 +25,9 @@ Map<String, WidgetBuilder> getAplicationRoutes() {
     '/components/inputs': (BuildContext contex) => InputsPage(),
     '/components/slider': (BuildContext contex) => SliderPage(),
     '/components/list': (BuildContext contex) => ListPage(),
+    '/widget': (BuildContext contex) => WidgetOfTheWeekPage(title: "Widget of the week"),
+    '/widget/safeArea': (BuildContext contex) => MySafeArea(),
+    '/widget/expanded': (BuildContext contex) => MyExpanded(),
+
   };
 }
