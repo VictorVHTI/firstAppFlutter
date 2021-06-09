@@ -15,6 +15,7 @@ import 'package:example_flutter/src/screens/widget_of_the_week/pages/futureBuild
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/opacity.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/pageView.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/safeArea.dart';
+import 'package:example_flutter/src/screens/widget_of_the_week/pages/sliverAppBar.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/table.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/wrap.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/widgets_index.dart';
@@ -44,5 +45,6 @@ Map<String, WidgetBuilder> getAplicationRoutes() {
     '/widget/floationAB': (BuildContext contex) => MyFloatingActionButton(),
     '/widget/pageView': (BuildContext contex) => MyPageView(),
     '/widget/table': (BuildContext contex) => MyTable(),
+    '/widget/silverAppBar': (BuildContext contex) => MySliverAppBar(),
   };
 }
