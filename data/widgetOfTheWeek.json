@@ -35,6 +35,26 @@
         {
             "route" : "pageView",
             "title": "09.- Page View"
+        },
+        {
+            "route" : "table",
+            "title": "10.- Table"
+        },
+        {
+            "route" : "silverAppBar",
+            "title": "11.- Silver App Bar"
+        },
+        {
+            "route" : "silverList",
+            "title": "12.- Silver List"
+        },
+        {
+            "route" : "fadeInImage",
+            "title": "13.- Fade In Image"
+        },
+        {
+            "route" : "streamBuilder",
+            "title": "14.- Stream Builder"
         }
     ]
 }
