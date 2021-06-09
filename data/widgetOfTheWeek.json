@@ -2,31 +2,39 @@
     "widget" : [
         {
             "route" : "safeArea",
-            "title": "Safe Area"
+            "title": "01.- Safe Area"
         },
         {
             "route" : "expanded",
-            "title": "Expanded"
+            "title": "02.- Expanded"
         },
         {
             "route" : "wrap",
-            "title": "Wrap"
+            "title": "03.- Wrap"
         },
         {
             "route" : "animatedContainer",
-            "title": "Animated Container"
+            "title": "04.- Animated Container"
         },
         {
             "route" : "animatedOpacity",
-            "title": "Animated Opacity"
+            "title": "05.- Animated Opacity"
         },
         {
             "route" : "futureBulider",
-            "title": "Future Bulider"
+            "title": "06.-Future Bulider"
         },
         {
             "route" : "fadeTransition",
-            "title": "Fade Transition"
+            "title": "07.- Fade Transition"
+        },
+        {
+            "route" : "floationAB",
+            "title": "08.- Floating Action Button"
+        },
+        {
+            "route" : "pageView",
+            "title": "09.- Page View"
         }
     ]
 }
