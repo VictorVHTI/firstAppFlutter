@@ -55,6 +55,10 @@
         {
             "route" : "streamBuilder",
             "title": "14.- Stream Builder"
+        },
+        {
+            "route" : "inherited",
+            "title": "15.- Inherited Widget"
         }
     ]
 }

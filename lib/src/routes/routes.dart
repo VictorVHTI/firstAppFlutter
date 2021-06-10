@@ -12,6 +12,7 @@ import 'package:example_flutter/src/screens/widget_of_the_week/pages/expanded.da
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/fadeTransition.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/floatingAB.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/futureBuilder.dart';
+import 'package:example_flutter/src/screens/widget_of_the_week/pages/inherited.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/opacity.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/pageView.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/safeArea.dart';
@@ -51,7 +52,6 @@ Map<String, WidgetBuilder> getAplicationRoutes() {
     '/widget/silverList': (BuildContext contex) => MySilverList(),
     '/widget/fadeInImage': (BuildContext contex) => ListPage(),
     '/widget/streamBuilder': (BuildContext contex) => MyStreamBuilder(),
-    
-    
+    '/widget/inherited': (BuildContext contex) => MyInherited(),
   };
 }
