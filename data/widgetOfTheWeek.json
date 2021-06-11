@@ -59,6 +59,18 @@
         {
             "route" : "inherited",
             "title": "15.- Inherited Widget"
+        },
+        {
+            "route" : "cliprrec",
+            "title": "16.- ClipRRec"
+        },
+        {
+            "route" : "inherited",
+            "title": "17.- "
+        },
+        {
+            "route" : "inherited",
+            "title": "18.- "
         }
     ]
 }

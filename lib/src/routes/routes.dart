@@ -8,6 +8,7 @@ import 'package:example_flutter/src/screens/components/pages/inputs.page.dart';
 import 'package:example_flutter/src/screens/components/pages/list_page.dart';
 import 'package:example_flutter/src/screens/components/pages/slider_page.dart';
 import 'package:example_flutter/src/screens/counter/counter.dart';
+import 'package:example_flutter/src/screens/widget_of_the_week/pages/clipRRec.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/expanded.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/fadeTransition.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/floatingAB.dart';
@@ -53,5 +54,6 @@ Map<String, WidgetBuilder> getAplicationRoutes() {
     '/widget/fadeInImage': (BuildContext contex) => ListPage(),
     '/widget/streamBuilder': (BuildContext contex) => MyStreamBuilder(),
     '/widget/inherited': (BuildContext contex) => MyInherited(),
+    '/widget/cliprrec': (BuildContext contex) => MyClipRRec(),
   };
 }
