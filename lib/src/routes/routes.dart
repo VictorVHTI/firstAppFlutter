@@ -8,12 +8,18 @@ import 'package:example_flutter/src/screens/components/pages/inputs.page.dart';
 import 'package:example_flutter/src/screens/components/pages/list_page.dart';
 import 'package:example_flutter/src/screens/components/pages/slider_page.dart';
 import 'package:example_flutter/src/screens/counter/counter.dart';
+import 'package:example_flutter/src/screens/widget_of_the_week/pages/absorbPointer.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/clipRRec.dart';
+import 'package:example_flutter/src/screens/widget_of_the_week/pages/customePainter.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/expanded.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/fadeTransition.dart';
+import 'package:example_flutter/src/screens/widget_of_the_week/pages/fitteBox.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/floatingAB.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/futureBuilder.dart';
+import 'package:example_flutter/src/screens/widget_of_the_week/pages/hero.dart';
+import 'package:example_flutter/src/screens/widget_of_the_week/pages/imageFilter.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/inherited.dart';
+import 'package:example_flutter/src/screens/widget_of_the_week/pages/layoutBuilder.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/opacity.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/pageView.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/safeArea.dart';
@@ -21,6 +27,7 @@ import 'package:example_flutter/src/screens/widget_of_the_week/pages/silverList.
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/sliverAppBar.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/streamBuilder.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/table.dart';
+import 'package:example_flutter/src/screens/widget_of_the_week/pages/transform.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/wrap.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/widgets_index.dart';
 import 'package:flutter/material.dart';
@@ -55,5 +62,13 @@ Map<String, WidgetBuilder> getAplicationRoutes() {
     '/widget/streamBuilder': (BuildContext contex) => MyStreamBuilder(),
     '/widget/inherited': (BuildContext contex) => MyInherited(),
     '/widget/cliprrec': (BuildContext contex) => MyClipRRec(),
+    '/widget/hero': (BuildContext contex) => MyHero(),
+    '/widget/customPainter': (BuildContext contex) => MyCustomPainter(),
+    '/widget/tooltip': (BuildContext contex) => MyCustomPainter(),
+    '/widget/fitteBox': (BuildContext contex) => MyFitteBox(),
+    '/widget/layoutBuilder': (BuildContext contex) => MylayoutBuilder(),
+    '/widget/absorbPointer': (BuildContext contex) => MyAbsorbPointer(),
+    '/widget/transform': (BuildContext contex) => MytTansform(),
+    '/widget/imageFilter': (BuildContext contex) => MyImageFilter(),
   };
 }

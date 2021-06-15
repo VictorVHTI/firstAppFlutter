@@ -65,12 +65,42 @@
             "title": "16.- ClipRRec"
         },
         {
-            "route" : "inherited",
-            "title": "17.- "
+            "route" : "hero",
+            "title": "17.- Hero"
         },
         {
-            "route" : "inherited",
-            "title": "18.- "
+            "route" : "customPainter",
+            "title": "18.- Custom Painter"
+        },
+        {
+            "route" : "tooltip",
+            "title": "19.- Tooltip"
+        },
+        {
+            "route" : "fitteBox",
+            "title": "20.- Fitte Box"
+        },
+        {
+            "route" : "layoutBuilder",
+            "title": "21.- Layout Builder"
+        },
+        {
+            "route" : "absorbPointer",
+            "title": "22.- Absorb Pointer"
+        },
+        {
+            "route" : "transform",
+            "title": "23.- Transform"
+        },
+        {
+            "route" : "transform",
+            "title": "24.- "
+        },
+        {
+            "route" : "imageFilter",
+            "title": "25.- Image Filter"
         }
+
+
     ]
 }
