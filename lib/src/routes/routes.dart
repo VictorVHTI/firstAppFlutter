@@ -27,6 +27,7 @@ import 'package:example_flutter/src/screens/widget_of_the_week/pages/silverList.
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/sliverAppBar.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/streamBuilder.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/table.dart';
+import 'package:example_flutter/src/screens/widget_of_the_week/pages/tooltip.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/transform.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/wrap.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/widgets_index.dart';
@@ -64,7 +65,7 @@ Map<String, WidgetBuilder> getAplicationRoutes() {
     '/widget/cliprrec': (BuildContext contex) => MyClipRRec(),
     '/widget/hero': (BuildContext contex) => MyHero(),
     '/widget/customPainter': (BuildContext contex) => MyCustomPainter(),
-    '/widget/tooltip': (BuildContext contex) => MyCustomPainter(),
+    '/widget/tooltip': (BuildContext contex) => MyTooltip(),
     '/widget/fitteBox': (BuildContext contex) => MyFitteBox(),
     '/widget/layoutBuilder': (BuildContext contex) => MylayoutBuilder(),
     '/widget/absorbPointer': (BuildContext contex) => MyAbsorbPointer(),
