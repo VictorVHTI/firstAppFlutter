@@ -1,4 +1,5 @@
 import 'package:example_flutter/src/app.dart';
+import 'package:example_flutter/src/screens/coffee_concept/index.dart';
 import 'package:example_flutter/src/screens/components/components_index.dart';
 import 'package:example_flutter/src/screens/components/pages/alert_page.dart';
 import 'package:example_flutter/src/screens/components/pages/animated_page.dart';
@@ -71,5 +72,6 @@ Map<String, WidgetBuilder> getAplicationRoutes() {
     '/widget/absorbPointer': (BuildContext contex) => MyAbsorbPointer(),
     '/widget/transform': (BuildContext contex) => MytTansform(),
     '/widget/imageFilter': (BuildContext contex) => MyImageFilter(),
+    '/coffee': (BuildContext contex) => CoffeeIndex(),
   };
 }

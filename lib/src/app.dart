@@ -23,6 +23,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ButtonNavigation('Counter', '/counter'),
             ButtonNavigation('Components', '/components'),
             ButtonNavigation('Widget of the week', '/widget'),
+            ButtonNavigation('Coffee Concept List', '/coffee'),
           ],
         ),
       ),
