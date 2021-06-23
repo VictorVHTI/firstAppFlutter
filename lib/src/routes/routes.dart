@@ -1,6 +1,5 @@
 import 'package:example_flutter/src/app.dart';
 import 'package:example_flutter/src/screens/coffee_concept/coffee_home.dart';
-import 'package:example_flutter/src/screens/coffee_concept/index.dart';
 import 'package:example_flutter/src/screens/components/components_index.dart';
 import 'package:example_flutter/src/screens/components/pages/alert_page.dart';
 import 'package:example_flutter/src/screens/components/pages/animated_page.dart';
@@ -10,6 +9,7 @@ import 'package:example_flutter/src/screens/components/pages/inputs.page.dart';
 import 'package:example_flutter/src/screens/components/pages/list_page.dart';
 import 'package:example_flutter/src/screens/components/pages/slider_page.dart';
 import 'package:example_flutter/src/screens/counter/counter.dart';
+import 'package:example_flutter/src/screens/expandable_navbar/index.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/absorbPointer.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/clipRRec.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/customePainter.dart';
@@ -74,5 +74,6 @@ Map<String, WidgetBuilder> getAplicationRoutes() {
     '/widget/transform': (BuildContext contex) => MytTansform(),
     '/widget/imageFilter': (BuildContext contex) => MyImageFilter(),
     '/coffee': (BuildContext contex) => CoffeeHome(),
+    '/expandableNavbar': (BuildContext contex) => ExpandableNavBar(),
   };
 }

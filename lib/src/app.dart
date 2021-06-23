@@ -9,7 +9,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,6 +23,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ButtonNavigation('Components', '/components'),
             ButtonNavigation('Widget of the week', '/widget'),
             ButtonNavigation('Coffee Concept List', '/coffee'),
+            ButtonNavigation('Expandable NavBar', '/expandableNavbar'),
           ],
         ),
       ),
@@ -46,7 +46,10 @@ class ButtonNavigation extends StatelessWidget {
       onPressed: () {
         Navigator.of(context).pushNamed(route);
       },
-      child: Text(name, style: Theme.of(context).textTheme.headline6,),
+      child: Text(
+        name,
+        style: Theme.of(context).textTheme.headline6,
+      ),
     );
   }
 }
