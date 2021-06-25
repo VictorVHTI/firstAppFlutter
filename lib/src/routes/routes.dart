@@ -11,6 +11,7 @@ import 'package:example_flutter/src/screens/components/pages/list_page.dart';
 import 'package:example_flutter/src/screens/components/pages/slider_page.dart';
 import 'package:example_flutter/src/screens/counter/counter.dart';
 import 'package:example_flutter/src/screens/expandable_navbar/index.dart';
+import 'package:example_flutter/src/screens/vinyl_disc/index.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/absorbPointer.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/clipRRec.dart';
 import 'package:example_flutter/src/screens/widget_of_the_week/pages/customePainter.dart';
@@ -77,5 +78,6 @@ Map<String, WidgetBuilder> getAplicationRoutes() {
     '/coffee': (BuildContext contex) => CoffeeHome(),
     '/expandableNavbar': (BuildContext contex) => ExpandableNavBar(),
     '/booksList': (BuildContext contex) => BooksConcept(),
+    '/vinylDisc': (BuildContext contex) => VinylDiscScreen(),
   };
 }

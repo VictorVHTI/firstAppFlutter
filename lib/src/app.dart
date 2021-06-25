@@ -25,6 +25,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ButtonNavigation('Coffee Concept List', '/coffee'),
             ButtonNavigation('Expandable NavBar', '/expandableNavbar'),
             ButtonNavigation('Books List', '/booksList'),
+            ButtonNavigation('Vinyl Disc', '/vinylDisc'),
           ],
         ),
       ),
