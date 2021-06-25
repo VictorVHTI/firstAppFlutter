@@ -1,4 +1,5 @@
 import 'package:example_flutter/src/app.dart';
+import 'package:example_flutter/src/screens/books/index.dart';
 import 'package:example_flutter/src/screens/coffee_concept/coffee_home.dart';
 import 'package:example_flutter/src/screens/components/components_index.dart';
 import 'package:example_flutter/src/screens/components/pages/alert_page.dart';
@@ -75,5 +76,6 @@ Map<String, WidgetBuilder> getAplicationRoutes() {
     '/widget/imageFilter': (BuildContext contex) => MyImageFilter(),
     '/coffee': (BuildContext contex) => CoffeeHome(),
     '/expandableNavbar': (BuildContext contex) => ExpandableNavBar(),
+    '/booksList': (BuildContext contex) => BooksConcept(),
   };
 }

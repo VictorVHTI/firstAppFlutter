@@ -24,6 +24,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ButtonNavigation('Widget of the week', '/widget'),
             ButtonNavigation('Coffee Concept List', '/coffee'),
             ButtonNavigation('Expandable NavBar', '/expandableNavbar'),
+            ButtonNavigation('Books List', '/booksList'),
           ],
         ),
       ),
