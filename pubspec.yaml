@@ -33,6 +33,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   http:
   animate_do:
+  cached_network_image: ^3.0.0
 
 dev_dependencies:
   flutter_test:
@@ -55,6 +56,7 @@ flutter:
     - assets/
     - assets/coffee/
     - assets/books/
+    - assets/heroes/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

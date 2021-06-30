@@ -26,6 +26,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ButtonNavigation('Expandable NavBar', '/expandableNavbar'),
             ButtonNavigation('Books List', '/booksList'),
             ButtonNavigation('Vinyl Disc', '/vinylDisc'),
+            ButtonNavigation('Superhero Movies', '/heroMovies'),
           ],
         ),
       ),
@@ -43,6 +44,7 @@ class ButtonNavigation extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ButtonStyle(
+        //minimumSize: MaterialStateProperty.all(Size.),
         foregroundColor: MaterialStateProperty.all<Color>(Colors.blue),
       ),
       onPressed: () {
@@ -50,7 +52,8 @@ class ButtonNavigation extends StatelessWidget {
       },
       child: Text(
         name,
-        style: Theme.of(context).textTheme.headline6,
+        style: TextStyle(color: Colors.white, fontSize: 21),
+        //style: Theme.of(context).textTheme.headline6,
       ),
     );
   }
